@@ -64,11 +64,12 @@ body{
 }
 .btn{
     font-size: 16px;
+    background-color: white;
     width: 250px;
     padding: 18px 0;
     font-weight: 600;
     margin-bottom: 20px;
-    border: 0;
+    border: .5px solid lightgray;
     border-radius: 10px
     
 }
