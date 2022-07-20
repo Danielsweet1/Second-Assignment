@@ -75,7 +75,7 @@ body{
 }
 .match-btn{
     color: white;
-    background-color: #DD0000;
+    background-color: rgba(70, 135, 70, 0.834);
 }
 .matches{
     display: grid;
