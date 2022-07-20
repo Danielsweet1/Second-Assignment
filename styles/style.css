@@ -34,9 +34,11 @@ body{
     background-color:#DD0000;
     padding: 15px 25px;
     align-items: center;
-    transition-property: background-color;
+    transition-property: background-color padding font-size;
 }
 .live-btn:hover{
+    font-size: 18px;
+    padding: 20px 30px;
     background-color: rgba(70, 135, 70, 0.834);
 }
 .fa-angle-right{
