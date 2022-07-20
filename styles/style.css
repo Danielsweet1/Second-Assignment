@@ -65,11 +65,12 @@ body{
 
  .form-btn{
     font-size: 20px;
+    background-color: white;
     width:250PX;
     padding: 18px 0;
     font-weight: 600;
     margin-bottom: 20px;
-    border: 0;
+    border: .5px solid lightgray;
     border-radius: 10px
     
 }
@@ -106,6 +107,11 @@ span{
 }
 .common-icon{
     margin-right: 10px;
+}
+.view-btn{
+    display: none;
+    
+
 }
 
 
@@ -164,7 +170,7 @@ footer h3{
         height: 100%;
     }
     .main-section{
-        flex-direction:column ;
+        flex-direction: column;
     }
     .form{
         background-color:white;
@@ -189,6 +195,10 @@ footer h3{
     .footer-links a{
         margin-top: 20px;
         font-size: 14px;
+    }
+    .view-btn{
+        display: none;
+        
     }
 
 }
@@ -229,6 +239,18 @@ footer h3{
             margin: 0;
             grid-template-columns: repeat(2,1fr);
             justify-content: center;
+        }
+        .view-btn{
+            display:block;
+            background-color: #DD0000;
+            font-size: 20px;
+            width: 150px;
+            color: white;
+            font-weight: 700;
+            padding: 10px;
+            margin: 30px auto;
+            border: 0;
+            border-radius:10px ;
         }
 
         

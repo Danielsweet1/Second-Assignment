@@ -44,7 +44,7 @@ body{
 }
 
 /* styling main section */
-.main-section{
+.first-section{
     display: flex;
     margin: 150px 80px;
 
@@ -62,9 +62,9 @@ body{
     margin:0 20px ;
     
 }
-.form-btn{
+.btn{
     font-size: 16px;
-    width: 90%;
+    width: 250px;
     padding: 18px 0;
     font-weight: 600;
     margin-bottom: 20px;
@@ -79,13 +79,13 @@ body{
 .matches{
     display: grid;
     grid-template-columns: repeat(3,250px);
-    height: 200px;
     gap: 20px;
 }
 .match{
     border: 0.2px solid lightgray;
     padding: 15px;
     border-radius: 10px;
+    height: 200px;
 }
 .flags{
     display: flex;
@@ -151,24 +151,31 @@ footer h3{
         width: 100%;
         height: 100%;
     }
-    .main-section{
-        flex-direction:column ;
+    .first-section{
+        flex-direction:column;
+        
     }
     .form{
         background-color:white;
         margin: 0 auto 40px auto;
     }
-    .form-btn{
+    .btn{
         font-size: 20px;
         width: 1fr;
         height: 100px;
     }
     .matches{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr;
         justify-content: center;
     }
     .match{
         width: 100%;
+        
+
+    }
+    .flags img{
+        margin: 0 auto;
+    
     }
     .footer-links{
         display: flex;
@@ -180,3 +187,44 @@ footer h3{
     }
 
 }
+
+/* for tablet  */
+@media screen and (min-width:576px) and (max-width:992px){
+      
+    .header-section{
+    
+        margin: 0 auto;
+    }
+        .header-image img,.header-info{
+            width: 100%;
+        }
+        .first-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form{
+            flex-direction: row;
+            background-color: white;
+            padding: 0;
+            text-align: center;
+            height: 100px;
+    
+        }
+        .btn{
+             width: 1fr;
+             height: 100px;
+        }
+        .form a{
+            margin-right:25px ;
+        }
+        .matches{
+            margin: 0;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+        }
+
+        
+    }
