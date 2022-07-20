@@ -146,7 +146,7 @@ footer h3{
         margin: 0 auto;
     }
     .header-image{
-        margin-top: 70px;
+        margin-top: 170px;
     }
     .header-image img{
         width: 100%;
@@ -199,6 +199,14 @@ footer h3{
         .header-image img,.header-info{
             width: 100%;
         }
+        .header-info{
+            line-height: 60px;
+        }
+        .header-para{
+            line-height: 40px;
+        }
+
+       
         .first-section{
             display: flex;
             flex-direction: column;
