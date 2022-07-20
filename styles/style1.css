@@ -142,11 +142,14 @@ footer h3{
         width: 100%;
         margin-bottom: 30px;
     }
+    .header-text{
+        line-height: 70px;
+    }
     .live-btn{
         margin: 0 auto;
     }
     .header-image{
-        margin-top: 170px;
+        margin-top: 100px;
     }
     .header-image img{
         width: 100%;
